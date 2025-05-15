@@ -1,0 +1,21 @@
+.bgDetails{
+        background-image: url(../../assets/Images/bgdetails.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    background-origin: border-box;
+    background-size: 1000px;
+    height: auto !important;
+}
+.carRentebtn{
+      background-color: #edf1fa;
+    color: #4a70f8;
+    padding: .5rem 1.2rem;
+    font-size: 1.2rem !important;
+    font-weight: 400 !important;
+    border: 1px solid rgba(21, 114, 211, .1019607843);
+}
+.chooseimg{
+    margin-top: 10rem ;
+    width: 80%;
+}

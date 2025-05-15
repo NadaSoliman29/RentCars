@@ -1,0 +1,36 @@
+.bg{
+    background-image: url(../../assets//Images/homebg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 35% 90%;
+    background-origin: border-box;
+}
+.texthome{
+        padding: 0 2rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+} 
+.texthome h1 {
+        font-size: 3rem;
+        font-weight: 700 !important;
+}
+.bluecolor{
+    color: #1572d3;
+}
+.imgcar{
+    width: 70%;
+}
+
+
+@media (min-width: 768px) {
+    .order-md-2 {
+        order: 2 !important;
+    }}
+    @media (min-width: 768px) {
+    .order-md-1 {
+        order: 1 !important;
+    }}
+   

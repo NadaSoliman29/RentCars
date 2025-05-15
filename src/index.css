@@ -1,0 +1,99 @@
+body{
+   box-sizing: border-box;
+       overflow-y: inherit !important;
+    overflow-x: hidden !important;
+}
+.carRentebtn{
+      background-color: #edf1fa;
+    color: #4a70f8;
+    padding: .5rem 1.2rem;
+    font-size: 1.2rem !important;
+    font-weight: 400 !important;
+    border: 1px solid rgba(21, 114, 211, .1019607843);
+}
+.titlepop{
+    font-size: 2.9rem !important;
+    font-weight: 600 !important;
+    line-height: 1.2;
+    margin: 1.8rem 0;
+}
+
+.chooseimg{
+    margin-top: 10rem ;
+    width: 80%;
+}
+
+small {
+    font-size: 1rem !important;
+}
+.testimonial-card {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  max-width: 900px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.image-side img {
+  width: 250px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-side {
+  padding: 20px;
+  flex: 1;
+}
+
+.rating h4 {
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.rating span {
+  font-size: 0.9rem;
+  color: #555;
+  margin-left: 5px;
+}
+
+.stars {
+  color: #f5c518;
+  margin: 5px 0 10px 0;
+  font-size: 1.1rem;
+}
+
+.text {
+  font-style: italic;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.time {
+  color: gray;
+}
+
+/* responsive fix */
+@media (max-width: 768px) {
+  .testimonial-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image-side img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .content-side {
+    padding: 15px;
+  }
+}

@@ -1,0 +1,9 @@
+.bgDetails{
+        background-image: url(../../assets/Images/bgdetails.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    background-origin: border-box;
+    background-size: 1000px;
+    height: auto !important;
+}

@@ -1,0 +1,25 @@
+
+.imgsize{
+        width: 20%;
+}
+
+
+.styleborder{
+       border: 1px solid #cedcff;
+    background-color: #cedcff;
+    border-radius: 50px;
+    width: 360px !important;
+      padding: .7rem 1.5rem !important;
+}
+.customeWidth{
+      width: 360px !important;
+}
+.contactbg{
+        background-image: url(../../assets/Images/ContactBg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    background-origin: border-box;
+    background-size: 400px 500px;
+    height: auto !important;
+}

@@ -1,0 +1,9 @@
+.testsBg {
+    background-image: url(../../assets/Images//Testimonials/bg-sec6.png);
+    background-repeat: no-repeat;
+    height: auto !important;
+    background-size: cover;
+    background-origin: border-box;
+    margin-top: 5rem;
+        background-color: rgb(248, 251, 255);
+}

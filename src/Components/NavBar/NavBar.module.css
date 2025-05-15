@@ -1,0 +1,21 @@
+.logo{
+        width: 105% !important;
+    padding: 2rem !important;
+}
+.buttonsnav{
+    padding: 2rem;
+}
+@media (max-width: 768px)  {
+   
+   .buttonsnav {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 768px)  {
+   
+   .mobBtn {
+        padding: .5rem .1rem !important;
+    }
+}
+       
